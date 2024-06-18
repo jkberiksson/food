@@ -14,7 +14,7 @@ const Item = ({ item }) => {
                     duration: 0.5,
                 },
             }}>
-            <img src={item.image} alt='image' />
+            <img src={item.image} alt={item.image} />
             <div>
                 <h3>{item.title}</h3>
             </div>
